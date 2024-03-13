@@ -1,0 +1,9 @@
+## Thay doi quyen so huu
+chown -R username:group_name file/folder
+
+read: 4
+write: 2
+execute: 1
+
+## Thay doi quyen tac dong
+chmod -R xyz file/folder (x - quyen cua user so huu, y - quyen cua group so huu, z - quyen cua user khac)
