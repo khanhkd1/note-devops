@@ -9,3 +9,13 @@ mkdir -p: tao nhieu folder (mkdir -p data/data1)
 tail: xem file tu duoi len (tail -n 100 log.txt)
   -n: so dong
   -f: follow: xem realtime
+free -m: check RAM
+df -h /: check DISK
+hostnamectl set-hostname new_name: doi hostname (root)
+netstat -tlpun: check port
+  -t: tcp
+  -l: listen port
+  -p: process
+  -u: udp
+  -n: number
+ps -ef: check process
