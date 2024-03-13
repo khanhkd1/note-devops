@@ -1,0 +1,6 @@
+CHI DUNG TRONG COMMAND MODE
+dd: xoa 1 dong
+u: = ctrl z (undo)
+yy: = ctrl c (copy)
+p: = ctrl v (paste)
+/: search
