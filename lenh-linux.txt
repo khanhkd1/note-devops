@@ -1,0 +1,11 @@
+pwd: vi tri hien tai
+whoami: user hien tai
+/: thu muc root
+ls: hien thi danh sach trong thu muc (ls -lta)
+  -a: hien thi file, thu muc an
+  -l: hien thi theo kieu danh sach
+  -t: hien thi sort theo time
+mkdir -p: tao nhieu folder (mkdir -p data/data1)
+tail: xem file tu duoi len (tail -n 100 log.txt)
+  -n: so dong
+  -f: follow: xem realtime
