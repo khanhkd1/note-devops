@@ -1,0 +1,27 @@
+## Tao user:
+useradd (chi them user)
+adduser (them user, group, home folder): recommend
+
+## Sw user:
+su username
+
+## List users:
+cat /etc/passwd
+
+## Xoa user
+deluser username
+
+## Tao group
+groupadd group_name
+
+## Xoa group
+delgroup group_name
+
+## Add user to group
+usermod -aG group_name username
+
+## Kiem tra user trong nhung gr nao
+groups username
+
+## Xoa user khoi group
+deluser username group_name
