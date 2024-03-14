@@ -1,0 +1,11 @@
+b1: tao file o: /lib/systemd/system/service_name.service
+b2: Cau truc file
+[Service]
+Type=simple
+User=vision (user chay service, chu y lien quan den quyen truy cap WorkingDirectory)
+Restart=on-failure
+WorkingDirectory=/projects/vision/ (noi chay service)
+ExecStart=npm run start -- --port=3000
+
+b3: restart daemon: systemctl daemon-reload
+b4: start service: systemctl start service_name
