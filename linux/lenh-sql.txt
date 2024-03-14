@@ -1,0 +1,6 @@
+- vao voi user root: mysql -u root
+- tao user: create user 'username'@'pham_vi' identified by 'password';
+- gan quyen cho user tac dong len database: grant all privileges on db_name.* to 'username'@'pham_vi';
+- luu quyen thay doi: flush privileges;
+- vao lai db voi username: mysql -h host_ip -P port -u username -p
+- import sql file vao db: source sql/file/path
